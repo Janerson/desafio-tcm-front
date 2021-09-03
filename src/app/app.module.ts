@@ -11,6 +11,7 @@ import { PopoverModule } from "ngx-bootstrap/popover";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MunicipiosComponent } from './pages/municipios/municipios.component';
+import { LoaderInterceptorModule } from './interceptors/loader-interceptor';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MunicipiosComponent } from './pages/municipios/municipios.component';
     SharedModule,
     PaginationModule.forRoot(),
     PopoverModule.forRoot(),
+    LoaderInterceptorModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -29,24 +29,27 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr *ngFor="let item of municipios.content" scope="row">
+                                <tr *ngFor="let item of municipios?.content" scope="row">
                                     <td><button type="button" class="btn btn-primary btn-sm" (click)="acessar($event)"
                                             popover="Visualizar Legislações" triggers="mouseenter:mouseleave"><span
                                                 class="fa fa-eye"></span></button>
                                     </td>
-                                    <td
-                                        [innerHTML]="item.codigoIBGE.toString() | highlight: formulario.get('descricao').value">
+                                    <td [innerHTML]="item.codigoIBGE | highlight: formulario.get('descricao').value">
                                     </td>
                                     <td [innerHTML]="item.municipio | highlight: formulario.get('descricao').value">
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
+                        <div>
+                            <pagination [boundaryLinks]=true [firstText]="'Início'" [lastText]="'Último'"
+                                [previousText]="'&lsaquo;'" [nextText]="'&rsaquo;'"
+                                [totalItems]="municipios?.totalElements" [itemsPerPage]="municipios?.size"
+                                [maxSize]="10"
+                                (pageChanged)="pageChanged($event)">
+                            </pagination>
+                        </div>
 
-                        <pagination [boundaryLinks]=true [firstText]="'Início'" [lastText]="'Último'"
-                            [previousText]="'&lsaquo;'" [nextText]="'&rsaquo;'" [totalItems]="municipios?.totalElements"
-                            [itemsPerPage]="municipios?.size" (pageChanged)="pageChanged($event)">
-                        </pagination>
                     </div>
                 </div>
             </div>
