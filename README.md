@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/379b0cfe-8075-4f6d-a88d-e46a619be02b/deploy-status)](https://app.netlify.com/sites/desafio-tcmgo/deploys)
+
+
 # AppTcm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
