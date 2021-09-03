@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build-default": "ng build --configuration homolog prod",
+    "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
