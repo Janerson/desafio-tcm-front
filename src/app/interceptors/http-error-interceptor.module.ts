@@ -31,7 +31,9 @@ export class HttpRequestErrorInterceptor implements HttpInterceptor {
   }
 
   private hanldeErrorAPI(error: HttpErrorResponse) {
+    console.log(error)
     const err: ErrorException = error.error;
+    console.log(err)
     switch (err.status) {
       case 503:
         this.alertService.showToastr(AlertTypes.DANGER, 'ERROR', err.message);
