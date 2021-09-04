@@ -31,7 +31,8 @@ export class HttpRequestErrorInterceptor implements HttpInterceptor {
     const err: ErrorException = error.error;
 
     switch (err.status) {
-      case 503:
+case 417:    
+case 503:
         this.alertService.showToastr(
           AlertTypes.DANGER,
           'ERROR',
