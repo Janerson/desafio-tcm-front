@@ -50,7 +50,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
   }
 
   acessar(codigoInge) {
-    this.router.navigate(['/LIC/LICITACAOFASEUM/', codigoInge]);
+    this.router.navigate(['/legislacao', codigoInge]);
   }
 
   onValueChanged() {
