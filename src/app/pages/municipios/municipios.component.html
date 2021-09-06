@@ -30,11 +30,11 @@
                             </thead>
                             <tbody>
                                 <tr *ngFor="let item of municipios?.content" scope="row">
-                                    <td><button type="button" class="btn btn-primary btn-sm" (click)="acessar(item.codigoIbge)"
+                                    <td><button type="button" class="btn btn-primary btn-sm" (click)="acessar(item.codigoIBGE)"
                                             popover="Visualizar Legislações" triggers="mouseenter:mouseleave"><span
                                                 class="fa fa-eye"></span></button>
                                     </td>
-                                    <td [innerHTML]="item.codigoIBGE | highlight: formulario.get('descricao').value">
+                                    <td [innerHTML]="item.codigoIBGE| highlight: formulario.get('descricao').value">
                                     </td>
                                     <td [innerHTML]="item.municipio | highlight: formulario.get('descricao').value">
                                     </td>

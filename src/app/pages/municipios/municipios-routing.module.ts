@@ -9,7 +9,7 @@ const routes: Routes = [
     component: MunicipiosComponent,
    
   },
-  { path: ':codIbge/legislacao', component: LegislacoesComponent }
+  { path: ':codIbge/legislacoes', component: LegislacoesComponent }
 ];
 
 @NgModule({

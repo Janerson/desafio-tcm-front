@@ -52,7 +52,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
   }
 
   acessar(codigoIbge) {
-    this.router.navigate([`/municipios/${codigoIbge}/legislacao`]);
+    this.router.navigate([`/municipios/${codigoIbge}/legislacoes`]);
   }
 
   onValueChanged() {
