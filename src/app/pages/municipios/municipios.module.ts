@@ -1,3 +1,4 @@
+import { LegislacoesComponent } from './legislacoes/legislacoes.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -7,9 +8,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
-  declarations: [MunicipiosComponent],
+  declarations: [MunicipiosComponent,LegislacoesComponent],
   imports: [
-    CommonModule,
     MunicipiosRoutingModule,
     SharedModule
   ]

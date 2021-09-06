@@ -5,10 +5,11 @@ import { MunicipiosComponent } from './municipios.component';
 
 const routes: Routes = [
   {
-    path: '', pathMatch:'full',
+    path: '',
     component: MunicipiosComponent,
+   
   },
-  { path: ':codIbge/legislacao', component: LegislacoesComponent },
+  { path: ':codIbge/legislacao', component: LegislacoesComponent }
 ];
 
 @NgModule({

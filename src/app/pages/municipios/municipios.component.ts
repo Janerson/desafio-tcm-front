@@ -13,10 +13,12 @@ import { distinctUntilChanged, debounce, switchMap } from "rxjs/operators";
   styleUrls: ['./municipios.component.scss'],
 })
 export class MunicipiosComponent implements OnInit, OnDestroy {
+
   private subscription: Subscription;
 
   public municipios: Page<Municipio>;
   public formulario: FormGroup;
+  public hasErro = false
 
   constructor(
     private service: MunicipiosService,
@@ -33,7 +35,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
   listarMunicipios(page = 0, textoPesquia?: string) {
     this.subscription = this.service
       .listarMunicipios(page, textoPesquia)
-      .subscribe((res) => (this.municipios = res));
+      .subscribe((res) => (this.municipios = res),this.err);
   }
 
   private initForm() {
@@ -49,8 +51,8 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
     );
   }
 
-  acessar(codigoInge) {
-    this.router.navigate(['/legislacao', codigoInge]);
+  acessar(codigoIbge) {
+    this.router.navigate([`/municipios/${codigoIbge}/legislacao`]);
   }
 
   onValueChanged() {
@@ -65,8 +67,12 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
         (result: any) => {
           this.municipios = result;
         },
-        (error: { message: string }) => console.log(error.message)
+        this.err
       );
+  }
+
+  err = (err) =>{
+    this.hasErro = true
   }
 
   ngOnDestroy(): void {

@@ -1,5 +1,5 @@
 export class Page<T> {
-    content: T[];
+    content: Array<T>;
     totalPages:number;
     totalElements:number;
     numberOfElements:number;

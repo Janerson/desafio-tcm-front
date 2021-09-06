@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoaderInterceptorModule } from './interceptors/loader-interceptor';
+import { LoaderInterceptorModule } from './interceptors/loader-interceptor.module';
 import { HttpErrorInterceptor } from './interceptors/http-error-interceptor.module';
 
 

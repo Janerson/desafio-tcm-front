@@ -2,7 +2,7 @@ export interface Legislacao {
   arquivoPrincipalNorma: string;
   municipio: string;
   anoNorma: number;
-  dataEnvio: string;
+  dataEnvio: number;
   unidadeGestora: string;
   tipoNorma: string;
   detalhamentoNorma: string;

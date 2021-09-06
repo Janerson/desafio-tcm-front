@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { PopoverModule } from "ngx-bootstrap/popover";
+import { AlertModule } from 'ngx-bootstrap/alert';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { ngxLoadingAnimationTypes, NgxLoadingModule } from 'ngx-loading';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -27,6 +29,8 @@ import { ToastrModule } from 'ngx-toastr';
     ReactiveFormsModule,
     PaginationModule,
     PopoverModule,
+    ButtonsModule.forRoot(),
+    AlertModule.forRoot(),
     NgxLoadingModule.forRoot({
       fullScreenBackdrop : true,
       animationType:ngxLoadingAnimationTypes.threeBounce,
@@ -42,9 +46,12 @@ import { ToastrModule } from 'ngx-toastr';
     HighlightPipe,
     LoaderComponent,
     FormsModule,
+    CommonModule,
     ReactiveFormsModule,
     PaginationModule,
     PopoverModule,
+    AlertModule,
+    ButtonsModule
   ],
   providers:[AlertService]
 })

@@ -30,9 +30,15 @@ export class HttpRequestErrorInterceptor implements HttpInterceptor {
   private hanldeErrorAPI(error: HttpErrorResponse) {
     const err: ErrorException = error.error;
 
-    switch (err.status) {
-case 417:    
-case 503:
+    switch (error.status) {
+      case 0:
+        this.alertService.showToastr(
+          AlertTypes.DANGER,
+          'ERROR',
+          'Não foi possível conectar ao servidor'
+        );
+        break;
+      case 503:
         this.alertService.showToastr(
           AlertTypes.DANGER,
           'ERROR',

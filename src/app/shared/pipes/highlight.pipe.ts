@@ -20,8 +20,8 @@ export class HighlightPipe implements PipeTransform {
     }
 
     const value = list.replace(
-      new RegExp(searchText, 'i'),
-      `<span style='background-color:yellow'>${searchText.toUpperCase()}</span>`
+      new RegExp(searchText, 'g'),
+      `<span style='background-color:yellow'>${searchText}</span>`
     );
 
     return this._sanitizer.bypassSecurityTrustHtml(value);

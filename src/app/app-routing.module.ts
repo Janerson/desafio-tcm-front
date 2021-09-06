@@ -3,8 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '', pathMatch:'full',
-    redirectTo: '/municipios',
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'municipios',
   },
   {
     path: 'municipios',
@@ -13,6 +14,13 @@ const routes: Routes = [
         (m) => m.MunicipiosModule
       ),
   },
+  // {
+  //   path: 'municipios',
+  //   loadChildren: () =>
+  //     import('./pages/municipios/municipios.module').then(
+  //       (m) => m.MunicipiosModule
+  //     ),
+  // },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

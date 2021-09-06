@@ -1,13 +1,83 @@
-<div class="row">
-    <div  class="col-xl-4">
-      <a class="card1" href="#">
-        <h3>Teste</h3>
-        <p class="small">transmitir, consultar, listar, editar e excluir</p>
-        <div class="go-corner" href="#">
-          <div class="go-arrow">
-            →
+<div class="card animate__animated animate__slideInRight">
+  <div class="card-body">
+    <div class="row">
+      <div [formGroup]="formulario" class="col-sm-4">
+        <div class="input-prepend input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa fa-search"></i></span>
           </div>
+          <input formControlName="descricao" type="text" id="id" class="form-control"
+            placeholder="Pesquisar por código ibge / município" autocomplete="off">
         </div>
-      </a>
+      </div>
+      <div class="col-sm-6">
+        <pagination [boundaryLinks]=true [firstText]="'&laquo;'" [lastText]="'&raquo;'" [previousText]="'&lsaquo;'"
+          [nextText]="'&rsaquo;'" [totalItems]="pageLegislacao?.totalElements" [itemsPerPage]="pageLegislacao?.size"
+          [maxSize]="10" (pageChanged)="pageChanged($event)">
+        </pagination>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-primary" (click)="voltar()">
+          <i class="fa fa-arrow-circle-left"></i>&nbsp;Voltar
+        </button>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="row animate__animated animate__slideInUp">
+  <div *ngFor="let item of pageLegislacao?.content" class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-header">
+        {{item.municipio }}
+        <div class="card-header-actions" style="padding-right: 10px;">
+          <a target="_blank" [href]="item.arquivoPrincipalNorma">Clique para acessar o arquivo da Norma <i
+              class="fa fa-file-pdf-o" style="padding-left: 5px; color: rgb(245, 1, 1);"></i></a>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6"><b>Ano Norma: </b>
+            <i [innerHTML]="item.anoNorma | highlight: formulario.get('descricao').value"></i>
+          </div>
+          <div class="col-6"><b>Data Envio: </b>
+            <i [innerHTML]="item.dataEnvio | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6"><b>Nº Norma: </b>
+            <i [innerHTML]="item.numeroNorma | highlight: formulario.get('descricao').value"></i>
+          </div>
+          <div class="col-6"><b>Tipo Norma: </b>
+            <i [innerHTML]="item.tipoNorma | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><b>Ementa: </b>
+            <i [innerHTML]="item.ementa | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><b>Detalhamento Norma: </b>
+            <i [innerHTML]="item.detalhamentoNorma | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><b>Representante: </b>
+            <i [innerHTML]="item.representante | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><b>Unidade Gestora: </b>
+            <i [innerHTML]="item.unidadeGestora | highlight: formulario.get('descricao').value"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><b>Situação Envio: </b>
+            <span class="badge badge-success">{{item.situacaoEnvio}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

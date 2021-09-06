@@ -2,6 +2,7 @@
   "name": "app-tcm",
   "version": "0.0.0",
   "scripts": {
+    "postinstall": "ngcc",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",

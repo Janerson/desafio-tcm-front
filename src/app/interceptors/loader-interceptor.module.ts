@@ -1,4 +1,4 @@
-import { LoaderService } from './../shared/components/loader.service';
+import { LoaderService } from '../shared/components/loader.service';
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { Injectable, NgModule } from "@angular/core";
 import { Observable } from "rxjs";
