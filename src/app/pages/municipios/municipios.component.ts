@@ -66,6 +66,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
       .subscribe(
         (result: any) => {
           this.municipios = result;
+          this.hasErro = false;
         },
         this.err
       );
