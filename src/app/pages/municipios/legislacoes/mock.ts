@@ -1,6 +1,6 @@
 export const LEGISLACOES  = [
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 1",
         "anoNorma": 55,
         "dataEnvio": "06/09/2021",        
@@ -16,7 +16,7 @@ export const LEGISLACOES  = [
         "id": "1"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 2",
         "anoNorma": 81,
         "dataEnvio": "06/09/2021",
@@ -32,7 +32,7 @@ export const LEGISLACOES  = [
         "id": "2"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 3",
         "anoNorma": 47,
         "dataEnvio": "06/09/2021",
@@ -48,7 +48,7 @@ export const LEGISLACOES  = [
         "id": "3"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 4",
         "anoNorma": 52,
         "dataEnvio": "06/09/2021",
@@ -64,7 +64,7 @@ export const LEGISLACOES  = [
         "id": "4"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 5",
         "anoNorma": 59,
         "dataEnvio": "06/09/2021",
@@ -80,7 +80,7 @@ export const LEGISLACOES  = [
         "id": "5"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 6",
         "anoNorma": 98,
         "dataEnvio": "06/09/2021",
@@ -96,7 +96,7 @@ export const LEGISLACOES  = [
         "id": "6"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 7",
         "anoNorma": 97,
         "dataEnvio": "06/09/2021",
@@ -112,7 +112,7 @@ export const LEGISLACOES  = [
         "id": "7"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 8",
         "anoNorma": 24,
         "dataEnvio": "06/09/2021",
@@ -128,7 +128,7 @@ export const LEGISLACOES  = [
         "id": "8"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf",
         "municipio": "municipio 9",
         "anoNorma": 45,
         "dataEnvio": "06/09/2021",
@@ -144,7 +144,7 @@ export const LEGISLACOES  = [
         "id": "9"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf0",
         "municipio": "municipio 10",
         "anoNorma": 53,
         "dataEnvio": "06/09/2021",
@@ -160,7 +160,7 @@ export const LEGISLACOES  = [
         "id": "10"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf1",
         "municipio": "municipio 11",
         "anoNorma": 52,
         "dataEnvio": "06/09/2021",
@@ -176,7 +176,7 @@ export const LEGISLACOES  = [
         "id": "11"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf2",
         "municipio": "municipio 12",
         "anoNorma": 11,
         "dataEnvio": "06/09/2021",
@@ -192,7 +192,7 @@ export const LEGISLACOES  = [
         "id": "12"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf3",
         "municipio": "municipio 13",
         "anoNorma": 84,
         "dataEnvio": "06/09/2021",
@@ -208,7 +208,7 @@ export const LEGISLACOES  = [
         "id": "13"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf4",
         "municipio": "municipio 14",
         "anoNorma": 21,
         "dataEnvio": "06/09/2021",
@@ -224,7 +224,7 @@ export const LEGISLACOES  = [
         "id": "14"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf5",
         "municipio": "municipio 15",
         "anoNorma": 71,
         "dataEnvio": "06/09/2021",
@@ -240,7 +240,7 @@ export const LEGISLACOES  = [
         "id": "15"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf6",
         "municipio": "municipio 16",
         "anoNorma": 12,
         "dataEnvio": "06/09/2021",
@@ -256,7 +256,7 @@ export const LEGISLACOES  = [
         "id": "16"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf7",
         "municipio": "municipio 17",
         "anoNorma": 83,
         "dataEnvio": "06/09/2021",
@@ -272,7 +272,7 @@ export const LEGISLACOES  = [
         "id": "17"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf8",
         "municipio": "municipio 18",
         "anoNorma": 27,
         "dataEnvio": "06/09/2021",
@@ -288,7 +288,7 @@ export const LEGISLACOES  = [
         "id": "18"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf9",
         "municipio": "municipio 19",
         "anoNorma": 52,
         "dataEnvio": "06/09/2021",
@@ -304,7 +304,7 @@ export const LEGISLACOES  = [
         "id": "19"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf0",
         "municipio": "municipio 20",
         "anoNorma": 15,
         "dataEnvio": "06/09/2021",
@@ -320,7 +320,7 @@ export const LEGISLACOES  = [
         "id": "20"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf1",
         "municipio": "municipio 21",
         "anoNorma": 3,
         "dataEnvio": "06/09/2021",
@@ -336,7 +336,7 @@ export const LEGISLACOES  = [
         "id": "21"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf2",
         "municipio": "municipio 22",
         "anoNorma": 90,
         "dataEnvio": "06/09/2021",
@@ -352,7 +352,7 @@ export const LEGISLACOES  = [
         "id": "22"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf3",
         "municipio": "municipio 23",
         "anoNorma": 57,
         "dataEnvio": "06/09/2021",
@@ -368,7 +368,7 @@ export const LEGISLACOES  = [
         "id": "23"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf4",
         "municipio": "municipio 24",
         "anoNorma": 87,
         "dataEnvio": "06/09/2021",
@@ -384,7 +384,7 @@ export const LEGISLACOES  = [
         "id": "24"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf5",
         "municipio": "municipio 25",
         "anoNorma": 14,
         "dataEnvio": "06/09/2021",
@@ -400,7 +400,7 @@ export const LEGISLACOES  = [
         "id": "25"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf6",
         "municipio": "municipio 26",
         "anoNorma": 33,
         "dataEnvio": "06/09/2021",
@@ -416,7 +416,7 @@ export const LEGISLACOES  = [
         "id": "26"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf7",
         "municipio": "municipio 27",
         "anoNorma": 21,
         "dataEnvio": "06/09/2021",
@@ -432,7 +432,7 @@ export const LEGISLACOES  = [
         "id": "27"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf8",
         "municipio": "municipio 28",
         "anoNorma": 28,
         "dataEnvio": "06/09/2021",
@@ -448,7 +448,7 @@ export const LEGISLACOES  = [
         "id": "28"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf9",
         "municipio": "municipio 29",
         "anoNorma": 45,
         "dataEnvio": "06/09/2021",
@@ -464,7 +464,7 @@ export const LEGISLACOES  = [
         "id": "29"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf0",
         "municipio": "municipio 30",
         "anoNorma": 52,
         "dataEnvio": "06/09/2021",
@@ -480,7 +480,7 @@ export const LEGISLACOES  = [
         "id": "30"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf1",
         "municipio": "municipio 31",
         "anoNorma": 22,
         "dataEnvio": "06/09/2021",
@@ -496,7 +496,7 @@ export const LEGISLACOES  = [
         "id": "31"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf2",
         "municipio": "municipio 32",
         "anoNorma": 40,
         "dataEnvio": "06/09/2021",
@@ -512,7 +512,7 @@ export const LEGISLACOES  = [
         "id": "32"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf3",
         "municipio": "municipio 33",
         "anoNorma": 46,
         "dataEnvio": "06/09/2021",
@@ -528,7 +528,7 @@ export const LEGISLACOES  = [
         "id": "33"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf4",
         "municipio": "municipio 34",
         "anoNorma": 12,
         "dataEnvio": "06/09/2021",
@@ -544,7 +544,7 @@ export const LEGISLACOES  = [
         "id": "34"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf5",
         "municipio": "municipio 35",
         "anoNorma": 92,
         "dataEnvio": "06/09/2021",
@@ -560,7 +560,7 @@ export const LEGISLACOES  = [
         "id": "35"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf6",
         "municipio": "municipio 36",
         "anoNorma": 85,
         "dataEnvio": "06/09/2021",
@@ -576,7 +576,7 @@ export const LEGISLACOES  = [
         "id": "36"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf7",
         "municipio": "municipio 37",
         "anoNorma": 26,
         "dataEnvio": "06/09/2021",
@@ -592,7 +592,7 @@ export const LEGISLACOES  = [
         "id": "37"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf8",
         "municipio": "municipio 38",
         "anoNorma": 1,
         "dataEnvio": "06/09/2021",
@@ -608,7 +608,7 @@ export const LEGISLACOES  = [
         "id": "38"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf9",
         "municipio": "municipio 39",
         "anoNorma": 52,
         "dataEnvio": "06/09/2021",
@@ -624,7 +624,7 @@ export const LEGISLACOES  = [
         "id": "39"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf0",
         "municipio": "municipio 40",
         "anoNorma": 48,
         "dataEnvio": "06/09/2021",
@@ -640,7 +640,7 @@ export const LEGISLACOES  = [
         "id": "40"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf1",
         "municipio": "municipio 41",
         "anoNorma": 87,
         "dataEnvio": "06/09/2021",
@@ -656,7 +656,7 @@ export const LEGISLACOES  = [
         "id": "41"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf2",
         "municipio": "municipio 42",
         "anoNorma": 13,
         "dataEnvio": "06/09/2021",
@@ -672,7 +672,7 @@ export const LEGISLACOES  = [
         "id": "42"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf3",
         "municipio": "municipio 43",
         "anoNorma": 17,
         "dataEnvio": "06/09/2021",
@@ -688,7 +688,7 @@ export const LEGISLACOES  = [
         "id": "43"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf4",
         "municipio": "municipio 44",
         "anoNorma": 91,
         "dataEnvio": "06/09/2021",
@@ -704,7 +704,7 @@ export const LEGISLACOES  = [
         "id": "44"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf5",
         "municipio": "municipio 45",
         "anoNorma": 43,
         "dataEnvio": "06/09/2021",
@@ -720,7 +720,7 @@ export const LEGISLACOES  = [
         "id": "45"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf6",
         "municipio": "municipio 46",
         "anoNorma": 90,
         "dataEnvio": "06/09/2021",
@@ -736,7 +736,7 @@ export const LEGISLACOES  = [
         "id": "46"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf7",
         "municipio": "municipio 47",
         "anoNorma": 83,
         "dataEnvio": "06/09/2021",
@@ -752,7 +752,7 @@ export const LEGISLACOES  = [
         "id": "47"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf8",
         "municipio": "municipio 48",
         "anoNorma": 58,
         "dataEnvio": "06/09/2021",
@@ -768,7 +768,7 @@ export const LEGISLACOES  = [
         "id": "48"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf9",
         "municipio": "municipio 49",
         "anoNorma": 3,
         "dataEnvio": "06/09/2021",
@@ -784,7 +784,7 @@ export const LEGISLACOES  = [
         "id": "49"
     },
     {
-        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
+        "arquivoPrincipalNorma": "https://www.tcmgo.tc.br/site/wp-content/uploads/2021/02/Guia-Inicio-de-Gestao-V2.10.pdf0",
         "municipio": "municipio 50",
         "anoNorma": 41,
         "dataEnvio": "06/09/2021",
