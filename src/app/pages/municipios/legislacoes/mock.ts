@@ -1,6 +1,6 @@
 export const LEGISLACOES  = [
     {
-        "arquivoPrincipalNorma": "http://www.prg.ufpb.br/prg/codesc/processos-seletivos/noticias/processo-seletivo-2013-2021-1-2013-cursos-de-educacao-a-distancia/edital-de-cadastramento_ead_2020_primeira-lista.pdf",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 1",
         "anoNorma": 55,
         "dataEnvio": 1630856142,        
@@ -16,7 +16,7 @@ export const LEGISLACOES  = [
         "id": "1"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 2",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 2",
         "anoNorma": 81,
         "dataEnvio": 1630856082,
@@ -32,7 +32,7 @@ export const LEGISLACOES  = [
         "id": "2"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 3",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 3",
         "anoNorma": 47,
         "dataEnvio": 1630856022,
@@ -48,7 +48,7 @@ export const LEGISLACOES  = [
         "id": "3"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 4",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 4",
         "anoNorma": 52,
         "dataEnvio": 1630855962,
@@ -64,7 +64,7 @@ export const LEGISLACOES  = [
         "id": "4"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 5",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 5",
         "anoNorma": 59,
         "dataEnvio": 1630855902,
@@ -80,7 +80,7 @@ export const LEGISLACOES  = [
         "id": "5"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 6",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 6",
         "anoNorma": 98,
         "dataEnvio": 1630855842,
@@ -96,7 +96,7 @@ export const LEGISLACOES  = [
         "id": "6"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 7",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 7",
         "anoNorma": 97,
         "dataEnvio": 1630855782,
@@ -112,7 +112,7 @@ export const LEGISLACOES  = [
         "id": "7"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 8",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 8",
         "anoNorma": 24,
         "dataEnvio": 1630855722,
@@ -128,7 +128,7 @@ export const LEGISLACOES  = [
         "id": "8"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 9",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL3",
         "municipio": "municipio 9",
         "anoNorma": 45,
         "dataEnvio": 1630855662,
@@ -144,7 +144,7 @@ export const LEGISLACOES  = [
         "id": "9"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 10",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
         "municipio": "municipio 10",
         "anoNorma": 53,
         "dataEnvio": 1630855602,
@@ -160,7 +160,7 @@ export const LEGISLACOES  = [
         "id": "10"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 11",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
         "municipio": "municipio 11",
         "anoNorma": 52,
         "dataEnvio": 1630855542,
@@ -176,7 +176,7 @@ export const LEGISLACOES  = [
         "id": "11"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 12",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
         "municipio": "municipio 12",
         "anoNorma": 11,
         "dataEnvio": 1630855482,
@@ -192,7 +192,7 @@ export const LEGISLACOES  = [
         "id": "12"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 13",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
         "municipio": "municipio 13",
         "anoNorma": 84,
         "dataEnvio": 1630855422,
@@ -208,7 +208,7 @@ export const LEGISLACOES  = [
         "id": "13"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 14",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
         "municipio": "municipio 14",
         "anoNorma": 21,
         "dataEnvio": 1630855362,
@@ -224,7 +224,7 @@ export const LEGISLACOES  = [
         "id": "14"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 15",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
         "municipio": "municipio 15",
         "anoNorma": 71,
         "dataEnvio": 1630855302,
@@ -240,7 +240,7 @@ export const LEGISLACOES  = [
         "id": "15"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 16",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
         "municipio": "municipio 16",
         "anoNorma": 12,
         "dataEnvio": 1630855242,
@@ -256,7 +256,7 @@ export const LEGISLACOES  = [
         "id": "16"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 17",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
         "municipio": "municipio 17",
         "anoNorma": 83,
         "dataEnvio": 1630855182,
@@ -272,7 +272,7 @@ export const LEGISLACOES  = [
         "id": "17"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 18",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
         "municipio": "municipio 18",
         "anoNorma": 27,
         "dataEnvio": 1630855122,
@@ -288,7 +288,7 @@ export const LEGISLACOES  = [
         "id": "18"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 19",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
         "municipio": "municipio 19",
         "anoNorma": 52,
         "dataEnvio": 1630855062,
@@ -304,7 +304,7 @@ export const LEGISLACOES  = [
         "id": "19"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 20",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
         "municipio": "municipio 20",
         "anoNorma": 15,
         "dataEnvio": 1630855002,
@@ -320,7 +320,7 @@ export const LEGISLACOES  = [
         "id": "20"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 21",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
         "municipio": "municipio 21",
         "anoNorma": 3,
         "dataEnvio": 1630854942,
@@ -336,7 +336,7 @@ export const LEGISLACOES  = [
         "id": "21"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 22",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
         "municipio": "municipio 22",
         "anoNorma": 90,
         "dataEnvio": 1630854882,
@@ -352,7 +352,7 @@ export const LEGISLACOES  = [
         "id": "22"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 23",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
         "municipio": "municipio 23",
         "anoNorma": 57,
         "dataEnvio": 1630854822,
@@ -368,7 +368,7 @@ export const LEGISLACOES  = [
         "id": "23"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 24",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
         "municipio": "municipio 24",
         "anoNorma": 87,
         "dataEnvio": 1630854762,
@@ -384,7 +384,7 @@ export const LEGISLACOES  = [
         "id": "24"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 25",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
         "municipio": "municipio 25",
         "anoNorma": 14,
         "dataEnvio": 1630854702,
@@ -400,7 +400,7 @@ export const LEGISLACOES  = [
         "id": "25"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 26",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
         "municipio": "municipio 26",
         "anoNorma": 33,
         "dataEnvio": 1630854642,
@@ -416,7 +416,7 @@ export const LEGISLACOES  = [
         "id": "26"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 27",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
         "municipio": "municipio 27",
         "anoNorma": 21,
         "dataEnvio": 1630854582,
@@ -432,7 +432,7 @@ export const LEGISLACOES  = [
         "id": "27"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 28",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
         "municipio": "municipio 28",
         "anoNorma": 28,
         "dataEnvio": 1630854522,
@@ -448,7 +448,7 @@ export const LEGISLACOES  = [
         "id": "28"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 29",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
         "municipio": "municipio 29",
         "anoNorma": 45,
         "dataEnvio": 1630854462,
@@ -464,7 +464,7 @@ export const LEGISLACOES  = [
         "id": "29"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 30",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
         "municipio": "municipio 30",
         "anoNorma": 52,
         "dataEnvio": 1630854402,
@@ -480,7 +480,7 @@ export const LEGISLACOES  = [
         "id": "30"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 31",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
         "municipio": "municipio 31",
         "anoNorma": 22,
         "dataEnvio": 1630854342,
@@ -496,7 +496,7 @@ export const LEGISLACOES  = [
         "id": "31"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 32",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
         "municipio": "municipio 32",
         "anoNorma": 40,
         "dataEnvio": 1630854282,
@@ -512,7 +512,7 @@ export const LEGISLACOES  = [
         "id": "32"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 33",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
         "municipio": "municipio 33",
         "anoNorma": 46,
         "dataEnvio": 1630854222,
@@ -528,7 +528,7 @@ export const LEGISLACOES  = [
         "id": "33"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 34",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
         "municipio": "municipio 34",
         "anoNorma": 12,
         "dataEnvio": 1630854162,
@@ -544,7 +544,7 @@ export const LEGISLACOES  = [
         "id": "34"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 35",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
         "municipio": "municipio 35",
         "anoNorma": 92,
         "dataEnvio": 1630854105,
@@ -560,7 +560,7 @@ export const LEGISLACOES  = [
         "id": "35"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 36",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
         "municipio": "municipio 36",
         "anoNorma": 85,
         "dataEnvio": 1630854045,
@@ -576,7 +576,7 @@ export const LEGISLACOES  = [
         "id": "36"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 37",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
         "municipio": "municipio 37",
         "anoNorma": 26,
         "dataEnvio": 1630853985,
@@ -592,7 +592,7 @@ export const LEGISLACOES  = [
         "id": "37"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 38",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
         "municipio": "municipio 38",
         "anoNorma": 1,
         "dataEnvio": 1630853925,
@@ -608,7 +608,7 @@ export const LEGISLACOES  = [
         "id": "38"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 39",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
         "municipio": "municipio 39",
         "anoNorma": 52,
         "dataEnvio": 1630853865,
@@ -624,7 +624,7 @@ export const LEGISLACOES  = [
         "id": "39"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 40",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
         "municipio": "municipio 40",
         "anoNorma": 48,
         "dataEnvio": 1630853805,
@@ -640,7 +640,7 @@ export const LEGISLACOES  = [
         "id": "40"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 41",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL31",
         "municipio": "municipio 41",
         "anoNorma": 87,
         "dataEnvio": 1630853745,
@@ -656,7 +656,7 @@ export const LEGISLACOES  = [
         "id": "41"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 42",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL32",
         "municipio": "municipio 42",
         "anoNorma": 13,
         "dataEnvio": 1630853685,
@@ -672,7 +672,7 @@ export const LEGISLACOES  = [
         "id": "42"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 43",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL33",
         "municipio": "municipio 43",
         "anoNorma": 17,
         "dataEnvio": 1630853625,
@@ -688,7 +688,7 @@ export const LEGISLACOES  = [
         "id": "43"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 44",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL34",
         "municipio": "municipio 44",
         "anoNorma": 91,
         "dataEnvio": 1630853565,
@@ -704,7 +704,7 @@ export const LEGISLACOES  = [
         "id": "44"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 45",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL35",
         "municipio": "municipio 45",
         "anoNorma": 43,
         "dataEnvio": 1630853505,
@@ -720,7 +720,7 @@ export const LEGISLACOES  = [
         "id": "45"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 46",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL36",
         "municipio": "municipio 46",
         "anoNorma": 90,
         "dataEnvio": 1630853445,
@@ -736,7 +736,7 @@ export const LEGISLACOES  = [
         "id": "46"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 47",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL37",
         "municipio": "municipio 47",
         "anoNorma": 83,
         "dataEnvio": 1630853385,
@@ -752,7 +752,7 @@ export const LEGISLACOES  = [
         "id": "47"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 48",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL38",
         "municipio": "municipio 48",
         "anoNorma": 58,
         "dataEnvio": 1630853325,
@@ -768,7 +768,7 @@ export const LEGISLACOES  = [
         "id": "48"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 49",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL39",
         "municipio": "municipio 49",
         "anoNorma": 3,
         "dataEnvio": 1630853265,
@@ -784,7 +784,7 @@ export const LEGISLACOES  = [
         "id": "49"
     },
     {
-        "arquivoPrincipalNorma": "arquivoPrincipalNorma 50",
+        "arquivoPrincipalNorma": "encurtador.com.br/asJL30",
         "municipio": "municipio 50",
         "anoNorma": 41,
         "dataEnvio": 1630853205,
