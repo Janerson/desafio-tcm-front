@@ -18,10 +18,10 @@ export class HighlightPipe implements PipeTransform {
     if (typeof list === 'number') {
       list = (<number>list).toString();
     }
-
+   
     const value = list.replace(
-      new RegExp(searchText, 'g'),
-      `<span style='background-color:yellow'>${searchText}</span>`
+      new RegExp(searchText, 'gi'),
+      `<span style='background-color:yellow'>${searchText.toUpperCase()}</span>`
     );
 
     return this._sanitizer.bypassSecurityTrustHtml(value);

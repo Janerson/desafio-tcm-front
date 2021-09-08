@@ -1,3 +1,4 @@
+import { environment } from 'src/environments/environment';
 import { LoaderService } from './shared/components/loader.service';
 import { Component } from '@angular/core';
 
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-tcm';
+
+  url_swagger = environment.url_api + '/swagger-ui.html';
 
   constructor(private s: LoaderService) {}
 

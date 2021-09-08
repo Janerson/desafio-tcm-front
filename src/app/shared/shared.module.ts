@@ -27,8 +27,8 @@ import { ToastrModule } from 'ngx-toastr';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    PaginationModule,
-    PopoverModule,
+    PaginationModule.forRoot(),
+    PopoverModule.forRoot(),
     ButtonsModule.forRoot(),
     AlertModule.forRoot(),
     NgxLoadingModule.forRoot({

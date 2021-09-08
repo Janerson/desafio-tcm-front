@@ -19,7 +19,7 @@ export class MunicipiosService {
     textoPesquisa: string = ''
   ): Observable<Page<Municipio>> {
     return this.http.get<Page<Municipio>>(
-      `${this.URL_API}/listar?page=${page}&query=${textoPesquisa}`
+      `${this.URL_API}/listar?page=${page}&query=${textoPesquisa || ''}`
     );
   }
 
@@ -29,7 +29,7 @@ export class MunicipiosService {
     textoPesquisa: string = ''
   ): Observable<Page<Legislacao>> {
     return this.http.get<Page<Legislacao>>(
-      `${this.URL_API}/${codigoIbgeMunicipio}/legislacoes?page=${page}&query=${textoPesquisa}`
+      `${this.URL_API}/${codigoIbgeMunicipio}/legislacoes?page=${page}&query=${textoPesquisa || ''}`
     );
   }
 }

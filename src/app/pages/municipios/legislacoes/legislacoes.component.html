@@ -29,11 +29,7 @@
   <div *ngFor="let item of pageLegislacao?.content" class="col-sm-6 col-md-4">
     <div class="card">
       <div class="card-header">
-        {{item.municipio }}
-        <div class="card-header-actions" style="padding-right: 10px;">
-          <a target="_blank" [href]="item.arquivoPrincipalNorma">Clique para acessar o arquivo da Norma <i
-              class="fa fa-file-pdf-o" style="padding-left: 5px; color: rgb(245, 1, 1);"></i></a>
-        </div>
+        {{item.municipio }}        
       </div>
       <div class="card-body">
         <div class="row">
@@ -44,12 +40,12 @@
             <i [innerHTML]="item.dataEnvio | highlight: formulario.get('descricao').value"></i>
           </div>
         </div>
-        <div class="row">
+        <div class="row">          
+          <div class="col-6" style="white-space: nowrap;"><b>Tipo Norma: </b>
+            <i [innerHTML]="item.tipoNorma | highlight: formulario.get('descricao').value"></i>
+          </div>
           <div class="col-6"><b>Nº Norma: </b>
             <i [innerHTML]="item.numeroNorma | highlight: formulario.get('descricao').value"></i>
-          </div>
-          <div class="col-6"><b>Tipo Norma: </b>
-            <i [innerHTML]="item.tipoNorma | highlight: formulario.get('descricao').value"></i>
           </div>
         </div>
         <div class="row">
@@ -63,8 +59,14 @@
           </div>
         </div>
         <div class="row">
+          <div class="col-12"><b>Arquivo Principal Norma: </b>
+            <a target="_blank" [href]="item.arquivoPrincipalNorma">Clique para acessar<i
+              class="fa fa-file-pdf-o" style="padding-left: 5px; color: rgb(245, 1, 1);"></i></a>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-12"><b>Representante: </b>
-            <i [innerHTML]="item.representante | highlight: formulario.get('descricao').value"></i>
+            <i [innerHTML]="item.representante| highlight: formulario.get('descricao').value"></i>
           </div>
         </div>
         <div class="row">

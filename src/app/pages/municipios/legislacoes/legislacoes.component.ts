@@ -98,7 +98,7 @@ export class LegislacoesComponent implements OnInit {
       .get('descricao')
       .valueChanges.pipe(
         distinctUntilChanged(),
-        debounce(() => interval(250)),
+        debounce(() => interval(300)),
         switchMap((value: any) =>
           this.service.listarLegislacaoes(this.codgIbge, 0, value)
         )

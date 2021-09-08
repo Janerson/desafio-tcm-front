@@ -33,6 +33,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
   }
 
   listarMunicipios(page = 0, textoPesquia?: string) {
+    this.hasErro = false;
     this.subscription = this.service
       .listarMunicipios(page, textoPesquia)
       .subscribe((res) => (this.municipios = res),this.err);
@@ -60,7 +61,7 @@ export class MunicipiosComponent implements OnInit, OnDestroy {
       .get('descricao')
       .valueChanges.pipe(
         distinctUntilChanged(),
-        debounce(() => interval(250)),
+        debounce(() => interval(300)),
         switchMap((value: any) => this.service.listarMunicipios(0, value))
       )
       .subscribe(
